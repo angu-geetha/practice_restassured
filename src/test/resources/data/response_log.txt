@@ -1,0 +1,501 @@
+HTTP/1.1 201 Created
+Date: Sat, 19 Aug 2023 22:04:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"52-0PJnh6zuMZ7puCVjUI9ZSbSwe3E"
+
+{
+    "accessToken": "6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8"
+}
+HTTP/1.1 400 Bad Request
+Date: Sat, 19 Aug 2023 22:04:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"2b-l89yYcoVfVJGBAfpD4IpCK5y/wA"
+
+{
+    "error": "Invalid or missing client name."
+}
+HTTP/1.1 400 Bad Request
+Date: Sat, 19 Aug 2023 22:04:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"2c-PwGtxEQOZiq6R8vQs7E1MW/WeUI"
+
+{
+    "error": "Invalid or missing client email."
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 15
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"f-v/Y1JusChTxrQUzPtNAKycooOTA"
+
+{
+    "status": "OK"
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 417
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"1a1-MfqhfTYtZO2sguD1mJq8Vf41WjU"
+
+[
+    {
+        "id": 1,
+        "name": "The Russian",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 3,
+        "name": "The Vanishing Half",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 4,
+        "name": "The Midnight Library",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Viscount Who Loved Me",
+        "type": "fiction",
+        "available": true
+    }
+]
+HTTP/1.1 201 Created
+Date: Sat, 19 Aug 2023 22:04:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 50
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"32-8Vot83rqH4GFTe2iZRAqiVpAQC0"
+
+{
+    "created": true,
+    "orderId": "8Fd-pCq32cJEn1zK6qwIB"
+}
+HTTP/1.1 404 Not Found
+Date: Sat, 19 Aug 2023 22:04:53 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 148
+Connection: keep-alive
+x-powered-by: Express
+content-security-policy: default-src 'none'
+x-content-type-options: nosniff
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot POST /ordersss</pre>
+  </body>
+</html>
+HTTP/1.1 400 Bad Request
+Date: Sat, 19 Aug 2023 22:04:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 38
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"26-nuV6aQ2H3vYGMuVoIahu/HIFYAI"
+
+{
+    "error": "Invalid or missing bookId."
+}
+HTTP/1.1 400 Bad Request
+Date: Sat, 19 Aug 2023 22:04:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 38
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"26-nuV6aQ2H3vYGMuVoIahu/HIFYAI"
+
+{
+    "error": "Invalid or missing bookId."
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 181
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"b5-1RSGnIgUDkNVpWfswEvoCupHplc"
+
+{
+    "id": "8Fd-pCq32cJEn1zK6qwIB",
+    "bookId": 1,
+    "customerName": "yach",
+    "createdBy": "620a11e91ffcc91705e0c9f603dbd5cdf5fdc4e79efc015c9334c7f1ddd3b550",
+    "quantity": 1,
+    "timestamp": 1692482692728
+}
+HTTP/1.1 404 Not Found
+Date: Sat, 19 Aug 2023 22:04:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"35-NSBqIlFMis3yHj7L1xsfak8HgBo"
+
+{
+    "error": "No order with id 8Fd-pCq32cJEn1zK6qwIBss."
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 183
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"b7-2TJcItlx7zqp88375nQEvcbIz6I"
+
+[
+    {
+        "id": "8Fd-pCq32cJEn1zK6qwIB",
+        "bookId": 1,
+        "customerName": "yach",
+        "createdBy": "620a11e91ffcc91705e0c9f603dbd5cdf5fdc4e79efc015c9334c7f1ddd3b550",
+        "quantity": 1,
+        "timestamp": 1692482692728
+    }
+]
+HTTP/1.1 404 Not Found
+Date: Sat, 19 Aug 2023 22:04:54 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 147
+Connection: keep-alive
+x-powered-by: Express
+content-security-policy: default-src 'none'
+x-content-type-options: nosniff
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot GET /ordersss</pre>
+  </body>
+</html>
+HTTP/1.1 204 No Content
+Date: Sat, 19 Aug 2023 22:04:54 GMT
+Connection: keep-alive
+x-powered-by: Express
+HTTP/1.1 404 Not Found
+Date: Sat, 19 Aug 2023 22:04:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"35-NSBqIlFMis3yHj7L1xsfak8HgBo"
+
+{
+    "error": "No order with id 8Fd-pCq32cJEn1zK6qwIBss."
+}
+HTTP/1.1 204 No Content
+Date: Sat, 19 Aug 2023 22:04:54 GMT
+Connection: keep-alive
+x-powered-by: Express
+HTTP/1.1 404 Not Found
+Date: Sat, 19 Aug 2023 22:04:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"35-NSBqIlFMis3yHj7L1xsfak8HgBo"
+
+{
+    "error": "No order with id 8Fd-pCq32cJEn1zK6qwIBss."
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 15
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"f-v/Y1JusChTxrQUzPtNAKycooOTA"
+
+{
+    "status": "OK"
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 417
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"1a1-MfqhfTYtZO2sguD1mJq8Vf41WjU"
+
+[
+    {
+        "id": 1,
+        "name": "The Russian",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 3,
+        "name": "The Vanishing Half",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 4,
+        "name": "The Midnight Library",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Viscount Who Loved Me",
+        "type": "fiction",
+        "available": true
+    }
+]
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 15
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"f-v/Y1JusChTxrQUzPtNAKycooOTA"
+
+{
+    "status": "OK"
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 135
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"87-fbXCfgu0GEMnqcRoXq5fuhhKazw"
+
+[
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    }
+]
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 15
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"f-v/Y1JusChTxrQUzPtNAKycooOTA"
+
+{
+    "status": "OK"
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 135
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"87-fbXCfgu0GEMnqcRoXq5fuhhKazw"
+
+[
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    }
+]
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 15
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"f-v/Y1JusChTxrQUzPtNAKycooOTA"
+
+{
+    "status": "OK"
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 417
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"1a1-MfqhfTYtZO2sguD1mJq8Vf41WjU"
+
+[
+    {
+        "id": 1,
+        "name": "The Russian",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 3,
+        "name": "The Vanishing Half",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 4,
+        "name": "The Midnight Library",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Viscount Who Loved Me",
+        "type": "fiction",
+        "available": true
+    }
+]
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 15
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"f-v/Y1JusChTxrQUzPtNAKycooOTA"
+
+{
+    "status": "OK"
+}
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 417
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"1a1-MfqhfTYtZO2sguD1mJq8Vf41WjU"
+
+[
+    {
+        "id": 1,
+        "name": "The Russian",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Just as I Am",
+        "type": "non-fiction",
+        "available": false
+    },
+    {
+        "id": 3,
+        "name": "The Vanishing Half",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 4,
+        "name": "The Midnight Library",
+        "type": "fiction",
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Untamed",
+        "type": "non-fiction",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Viscount Who Loved Me",
+        "type": "fiction",
+        "available": true
+    }
+]
+HTTP/1.1 200 OK
+Date: Sat, 19 Aug 2023 22:04:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 161
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"a1-Mcj+H8w3JMJfpTU/R3TvAdr/Z7E"
+
+{
+    "id": 1,
+    "name": "The Russian",
+    "author": "James Patterson and James O. Born",
+    "isbn": "1780899475",
+    "type": "fiction",
+    "price": 12.98,
+    "current-stock": 12,
+    "available": true
+}
+HTTP/1.1 404 Not Found
+Date: Sat, 19 Aug 2023 22:04:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 31
+Connection: keep-alive
+x-powered-by: Express
+etag: W/"1f-lp2DUvyX5wMtIbcyc88kA0BbwnM"
+
+{
+    "error": "No book with id NaN"
+}

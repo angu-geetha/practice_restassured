@@ -1,0 +1,394 @@
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/api-clients/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "clientName": "api11282",
+    "clientEmail": "80404abc@gmail.com"
+}
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/api-clients/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "clientName": null,
+    "clientEmail": "39981abc@gmail.com"
+}
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/api-clients/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "clientName": "api67644",
+    "clientEmail": null
+}
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bookId": 1,
+    "customerName": "yach"
+}
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/ordersss
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bookId": null,
+    "customerName": "yach"
+}
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bookId": null,
+    "customerName": "yach"
+}
+Request method:	POST
+Request URI:	https://simple-books-api.glitch.me/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bookId": 45,
+    "customerName": "yach"
+}
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/orders/8Fd-pCq32cJEn1zK6qwIB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/orders/8Fd-pCq32cJEn1zK6qwIBss
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/ordersss
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PATCH
+Request URI:	https://simple-books-api.glitch.me/orders/8Fd-pCq32cJEn1zK6qwIB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerName": "yach7777"
+}
+Request method:	PATCH
+Request URI:	https://simple-books-api.glitch.me/orders/8Fd-pCq32cJEn1zK6qwIBss
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "customerName": "yach"
+}
+Request method:	DELETE
+Request URI:	https://simple-books-api.glitch.me/orders/8Fd-pCq32cJEn1zK6qwIB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://simple-books-api.glitch.me/orders/8Fd-pCq32cJEn1zK6qwIBss
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 6583a57ac56373433bf86cebd1322c79d0a8a61fd433134a398d639bb09a00b8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books?type=non-fiction
+Proxy:			<none>
+Request params:	<none>
+Query params:	type=non-fiction
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books?type=non-fiction
+Proxy:			<none>
+Request params:	<none>
+Query params:	type=non-fiction
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books?available=false
+Proxy:			<none>
+Request params:	<none>
+Query params:	available=false
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books?available=false
+Proxy:			<none>
+Request params:	<none>
+Query params:	available=false
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://simple-books-api.glitch.me/books/ss
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

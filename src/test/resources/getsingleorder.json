@@ -1,0 +1,32 @@
+{
+  
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "bookId": {
+      "type": "integer"
+    },
+    "customerName": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "timestamp": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "bookId",
+    "customerName",
+    "createdBy",
+    "quantity",
+    "timestamp"
+  ]
+}
